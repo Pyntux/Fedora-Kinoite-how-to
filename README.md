@@ -17,12 +17,16 @@ $ sudo update-desktop-database /usr/local/share/applications/
 flatpak override --user --env=MOZ_ENABLE_WAYLAND=1 org.mozilla.firefox
 
 ## Stop some services:
+From: https://yorickpeterse.com/articles/switching-to-fedora-silverblue/
 
 sudo systemctl stop systemd-oomd
 
 sudo systemctl disable systemd-oomd
 
 sudo systemctl mask systemd-oomd
+
+Stoping firewall (optional):
+sudo systemctl disable firewalld
 
 ## SDDM big cursor size (F38):
 
