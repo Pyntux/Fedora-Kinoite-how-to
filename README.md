@@ -15,3 +15,11 @@ $ sudo update-desktop-database /usr/local/share/applications/
 ## Make Firefox flatpak use wayland:
 
 flatpak override --user --env=MOZ_ENABLE_WAYLAND=1 org.mozilla.firefox
+
+## Stop some services:
+
+sudo systemctl stop systemd-oomd
+
+sudo systemctl disable systemd-oomd
+
+sudo systemctl mask systemd-oomd
