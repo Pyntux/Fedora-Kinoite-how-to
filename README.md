@@ -2,7 +2,7 @@
 Guide from me for me, for using Fedora Kinoite
 
 
-+## Hide Firefox:
+## Hide Firefox:
 
 $ sudo mkdir -p /usr/local/share/applications/
 
