@@ -23,3 +23,9 @@ sudo systemctl stop systemd-oomd
 sudo systemctl disable systemd-oomd
 
 sudo systemctl mask systemd-oomd
+
+## SDDM big cursor size (F38):
+
+sudo nano /etc/environment
+
+copy/paste: XCURSOR_SIZE=24
