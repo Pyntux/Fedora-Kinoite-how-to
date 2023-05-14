@@ -2,7 +2,7 @@
 Guide from me for me, for using Fedora Kinoite
 
 
-## Hide Firefox:
++## Hide Firefox:
 
 $ sudo mkdir -p /usr/local/share/applications/
 
@@ -31,7 +31,7 @@ https://github.com/alextrv/enhanced-h264ify
 ## Stop some services:
 From: https://yorickpeterse.com/articles/switching-to-fedora-silverblue/
 
-[code]sudo systemctl stop systemd-oomd[/code]
+sudo systemctl stop systemd-oomd
 
 sudo systemctl disable systemd-oomd
 
