@@ -2,7 +2,7 @@
 Guide from me for me, for using Fedora Kinoite
 
 
-### Hide Firefox:
+## Hide Firefox:
 
 $ sudo mkdir -p /usr/local/share/applications/
 
@@ -12,6 +12,6 @@ $ sudo sed -i "2a\\NotShowIn=GNOME;KDE" /usr/local/share/applications/firefox.de
 
 $ sudo update-desktop-database /usr/local/share/applications/
 
-### Make Firefox flatpak use wayland:
+## Make Firefox flatpak use wayland:
 
 flatpak override --user --env=MOZ_ENABLE_WAYLAND=1 org.mozilla.firefox
