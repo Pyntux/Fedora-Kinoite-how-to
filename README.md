@@ -16,6 +16,12 @@ $ sudo update-desktop-database /usr/local/share/applications/
 
 flatpak override --user --env=MOZ_ENABLE_WAYLAND=1 org.mozilla.firefox
 
+## Hardware video acceleration for Firefox flatpak:
+
+about:config:
+gfx.webrender.all --> true
+media.ffmpeg.vaapi.enabled --> true
+
 ## Stop some services:
 From: https://yorickpeterse.com/articles/switching-to-fedora-silverblue/
 
