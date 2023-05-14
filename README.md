@@ -24,6 +24,10 @@ gfx.webrender.all --> true
 
 media.ffmpeg.vaapi.enabled --> true
 
+### Maybe this plugin?
+
+https://github.com/alextrv/enhanced-h264ify
+
 ## Stop some services:
 From: https://yorickpeterse.com/articles/switching-to-fedora-silverblue/
 
