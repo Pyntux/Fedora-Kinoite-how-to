@@ -24,7 +24,7 @@ gfx.webrender.all --> true
 
 media.ffmpeg.vaapi.enabled --> true
 
-### Maybe this plugin?
++ Maybe this plugin?
 
 https://github.com/alextrv/enhanced-h264ify
 
