@@ -31,7 +31,7 @@ https://github.com/alextrv/enhanced-h264ify
 ## Stop some services:
 From: https://yorickpeterse.com/articles/switching-to-fedora-silverblue/
 
-sudo systemctl stop systemd-oomd
+[code]sudo systemctl stop systemd-oomd[/code]
 
 sudo systemctl disable systemd-oomd
 
